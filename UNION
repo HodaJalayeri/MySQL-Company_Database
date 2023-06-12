@@ -1,0 +1,6 @@
+--FInd a list of all money spent or earned by the company
+SELECT salary
+From employee
+UNION
+SELECT total_sales
+FROM works_with;
